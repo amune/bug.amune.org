@@ -9,13 +9,7 @@ import sys
 
 from webcompat import app
 
-BOT_HELP = '''
-The BOT_OAUTH_TOKEN is not configured in your config file.
-You will need to set up one on github for testing your
-local developments.
-Read Instructions at
-https://github.com/webcompat/webcompat.com/blob/master/CONTRIBUTING.md#configuring-the-server
-'''
+BOT_HELP = 'BOT OAUTH TOKEN NOT SET'
 
 
 def config_validator():
