@@ -1,7 +1,7 @@
 <header class="header">
   <nav class="wc-content">
     <div class="nav__section">{%- if browser == 'firefox' %}
-      <a class="nav__link" href="https://addons.mozilla.org/en-US/firefox/addon/webcompatcom-reporter/">//CHANGE HEADER</a>
+      <a class="nav__link" href="https://addons.mozilla.org/en-US/firefox/addon/webcompatcom-reporter/">AMUNE - Private Internet</a>
       {%- elif browser == 'firefox mobile' -%}
       <a class="nav__link" href="https://addons.mozilla.org/en-US/android/addon/webcompatcom-mobile-reporter/">// CHANGE HEADER</a>
       {%- elif browser == 'chrome' -%}
@@ -15,7 +15,7 @@
     </div><!--
     --><div class="nav__section nav__section--right">
     {% if not session.user_id %}
-      <a class="nav__link" href="{{ url_for('login') }}">Login</a>
+      <a class="nav__link" href="{{ url_for('login') }}"></a>
     {% else %}
       <a class="nav__link" href="{{ url_for('logout') }}">Logout</a>
       {% if session.user_id and session.avatar_url %}
